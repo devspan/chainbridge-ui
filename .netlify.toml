@@ -1,0 +1,10 @@
+[build]
+  base = "packages/basic-example"
+  command = "yarn install && yarn run build"
+  publish = "packages/basic-example/build"
+
+[context.production.environment]
+  NODE_VERSION = "14"
+
+[context.develop.environment]
+  NODE_VERSION = "14"
