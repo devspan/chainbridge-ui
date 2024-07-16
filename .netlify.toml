@@ -5,6 +5,8 @@
 
 [context.production.environment]
   NODE_VERSION = "14"
+  NODE_OPTIONS = "--openssl-legacy-provider"
 
 [context.develop.environment]
   NODE_VERSION = "14"
+  NODE_OPTIONS = "--openssl-legacy-provider"
