@@ -4,9 +4,9 @@
   publish = "packages/basic-example/build"
 
 [context.production.environment]
-  NODE_VERSION = "14"
+  NODE_VERSION = "16"
   NODE_OPTIONS = "--openssl-legacy-provider"
 
 [context.develop.environment]
-  NODE_VERSION = "14"
+  NODE_VERSION = "16"
   NODE_OPTIONS = "--openssl-legacy-provider"
