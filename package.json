@@ -17,10 +17,13 @@
     "@changesets/cli": "^2.14.1",
     "ethers": "5.4.5",
     "prettier": "2.1.2",
-    "wsrun": "^5.2.4"
+    "wsrun": "^5.2.4",
+    "@polkadot/ui-settings": "^0.87.5"
   },
   "resolutions": {
-    "@noble/hashes": "1.0.0"
+    "@noble/hashes": "1.0.0",
+    "@polkadot/ui-settings": "^0.87.5"
+
   },
   "scripts": {
     "start:ui": "yarn wsrun -p @chainsafe/chainbridge-ui -c start",
