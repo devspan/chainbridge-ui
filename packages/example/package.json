@@ -103,5 +103,8 @@
     "hooks": {
       "pre-commit": "pretty-quick 'packages/**/src/**/*.{ts,tsx,js,jsx,md}' --staged"
     }
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
