@@ -1,6 +1,6 @@
 [build]
   base = "packages/basic-example"
-  command = "yarn install && yarn run build"
+  command = "yarn install --frozen-lockfile && yarn run build"
   publish = "packages/basic-example/build"
 
 [context.production.environment]
