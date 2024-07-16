@@ -3,7 +3,7 @@ FROM node:14-alpine AS builder
 RUN apk --no-cache add git
 WORKDIR /app
 COPY . .
-RUN yarn install --frozen-lockfile
+RUN yarn install
 RUN ls -al
 RUN yarn build:core
 RUN ls -al ./packages/core
